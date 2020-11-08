@@ -19,7 +19,7 @@ public class TodoService {
 		Optional<Todo> todoItem = todoRepository.findById(1);
 		System.out.println("todoItem : " + todoItem);
 		
-        return new Greeting("Hello " + user.getName() + " dbItem : " + todoItem.get().toString());
+        return new Greeting("Hello " + user.getName() + " dbItem : " + todoItem.get().toString() + " Updated.");
     }
 	
 }
